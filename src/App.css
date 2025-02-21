@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  text-align: center;  
+  margin-top: 20px;
+}
+
+.header img {
+  height: 60px;
+  margin-bottom: 25px; 
+}
+
+.header h2 {
+  font-size: 23px;
+  color: grey; 
+  margin-top: -15px; 
+}
+
+.header p {
+  color: orange;
+  font-family: cursive;
+  font-size: 18px; 
+}
+
+/* Menu Section */
+.menu {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Menu Item */
+.menu-item {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  height: 130px; 
+}
+
+/* Menu Item Image */
+.menu-item img {
+  width: 130px;
+  height: 110px;
+  border-radius: 8px;
+  margin-right: 10px;
+  
+}
+
+/* Menu Item Details */
+.menu-item-details {
+  flex: 5; /* Take available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center text */
+}
+
+.menu-item-details h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.menu-item-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: grey; 
+}
+
+.menu-item-details .price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.add-button, .order-button, .clear-button {
+  background-color: lightgrey;
+  color: black;
+  border-radius: 25px; 
+  border: none;
+  padding: 10px 20px; 
+  font-size: 14px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.add-button:hover, .clear-button:hover {
+  background-color: #d3d3d3; 
+}
+
+.order-button {
+  background-color: #007bff; 
+  color: white; 
+}
+
+.order-button:hover {
+  background-color: #4d87c5; 
+}
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 5px; 
+  min-width: 40px; 
+}
+
+.circular-button {
+  width: 25px; 
+  height: 25px;  
+  background-color: white; 
+  color: black;
+  border: 1px solid black; 
+  border-radius: 50%; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer; 
+  font-size: 20px;
+}
+
+.circular-button:hover {
+  background-color: #d3d3d3; 
+}
+.cart {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 20px; 
+  text-align: center; 
+}
+
+.cart-buttons {
+  display: flex; 
+  gap: 10px; 
+  margin-top: 10px; 
+}
